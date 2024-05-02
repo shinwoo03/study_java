@@ -24,7 +24,7 @@ public class operatorEx09 {
 					: (no >= 80 ? "B" 
 							: (no >= 70 ? "C" 
 									: (no >= 60 ? "D" : "F")));
-		System.out.printf("성정 : %d점 -> %s학점",no,grade);
+		System.out.printf("성적 : %d점 -> %s학점",no,grade);
 				
 		
 		

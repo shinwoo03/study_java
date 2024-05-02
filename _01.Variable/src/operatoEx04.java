@@ -24,6 +24,9 @@ public class operatoEx04 {
 		no /= 3;
 		System.out.println(no);
 		
+		no %= 5;
+		System.out.println(no);
+		
 		no = 1;
 		//누적데이터를 담을 변수 선언
 		int sum = 0;
