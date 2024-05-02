@@ -8,7 +8,7 @@ public class operatorEx05 {
 		no +=2; //no=4
 		
 		no = 1;
-		++no; // no = no + 1; , //no += 1;
+		++no; // no = no + 1; , no += 1
 		//no += 1;
 		
 	System.out.println( no );
@@ -51,7 +51,7 @@ public class operatorEx05 {
 	 
 	 System.out.println("5~1까지의 합 : " +sum);
 	 
-	 
+	
 	
 	
 	
