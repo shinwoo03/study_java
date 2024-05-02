@@ -51,6 +51,7 @@ public class operatorEx05 {
 	 
 	 System.out.println("5~1까지의 합 : " +sum);
 	 
+	 
 	
 	
 	
