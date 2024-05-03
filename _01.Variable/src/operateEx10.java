@@ -12,9 +12,9 @@ public class operateEx10 {
 		
 		int no;
 		no = scan.nextInt();
-		String old = no <= 6 ? "유아" 
-				:(no <= 12 ? "소아"
-						:(no <= 19 ? "청소년" : "성인"));
+		String old = no < 6 ? "유아" 
+				:(no < 12 ? "소아"
+						:(no < 19 ? "청소년" : "성인"));
 		System.out.printf("나이 : %d살 -> %s",no, old);
 		
 				
