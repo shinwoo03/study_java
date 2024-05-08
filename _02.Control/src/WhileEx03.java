@@ -8,7 +8,7 @@ public class WhileEx03 {
 		int dan = scan.nextInt();
 		
 		
-		int gugu = 1;//, dan = 8;
+		int gugu = 1; //, dan = 8;
 	
 		while (gugu <= 9) {
 			System.out.printf("%d X %d = %d \n", dan, gugu, dan*gugu);
