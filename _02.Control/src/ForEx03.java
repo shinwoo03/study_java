@@ -11,7 +11,7 @@ public class ForEx03 {
 		
 		for (int i=1; i<=no; i++ ) {
 			if ( i % 3 == 0) {
-			System.out.println( i);
+			System.out.print( i + " " );
 			}
 		}
 		
