@@ -16,6 +16,7 @@ public class ArrayEx05 {
 //		no[4] = 50; idx 4, no 50
 		
 		for (int idx=0; idx<no.length; idx++) {
+//		= for (int idx=0; idx<=no.length-1; idx++) {
 			no[idx] = (idx+1) * 10 ;
 			System.out.println(no[idx]);
 			
