@@ -3,30 +3,12 @@ import java.util.Scanner;
 public class VendingMachine {
 	
 	
-	
-	static int machin(int change) {
+	//거스름돈 계산 메소드 선언
+	static int machin(int change, int unit) {
 		
-		
-		int c1000 = 0, c500 = 0, c100 = 0, c50 = 0;
-		
-		//거스름돈이 있는 경우
-		//3000원을 넣어서 1000짜리 구매 1000짜리가 두장이 나오면 된다.
-		c1000 = change/1000;
-		change %= 1000; //change = change % 1000;
-	
-		
-		//나머지가 얼마인지에 따라서 나오는게 다름
-		c500 = change / 500; //몫이 500원짜리 한개
-		change %= 500; //250원 남았을때
-	
-		
-		c100= change / 100;
-		change %= 100 ;
-		
-		
-		c50 = change / 50;
-		change %= 50;
-	
+		int su = change / unit;
+		change %= unit;
+		if(su > 0) System.out.printf("%d원 %d개 \n", unit, su);
 		
 		return change;
 	}
@@ -106,9 +88,8 @@ public static void main(String[] args) {
 //		}else {
 //			change = money;
 			}
-			
 
-			int c1000 = 0, c500 = 0, c100 = 0, c50 = 0;
+
 			
 			System.out.printf("거스름돈 : %d \n", change);
 			//거스름돈이 있는 경우
@@ -130,11 +111,11 @@ public static void main(String[] args) {
 //			change %= 50;
 //			if(c50 > 0) System.out.printf("50원 %d개 \n", c50);
 		
-	c1000 = machin(c1000);
-	System.out.println(c1000);
-	c500 = machin(c500);
-	c100 = machin(c100);
-	c50 = machin(c50);
+	change = machin(change, 1000);
+	change = machin(change, 500);
+	change = machin(change, 100);
+	change = machin(change,50);
+
 	
 	
 		
