@@ -20,8 +20,8 @@ public class BankMain {
 		System.out.println();
 		
 		int out = account.minusMoeney(30000);
-		bankInfo(account);
 		System.out.println("출금 금액 : " + out);
+		bankInfo(account);
 	}
 	
 	
