@@ -1,0 +1,5 @@
+상속
+부모-자식 관계 : parent class - child class
+super-sub 관계 : super class - sub class
+상위클래스 하위클래스
+class 자식클래스명  extends 부모클래스명 {}
