@@ -13,7 +13,7 @@ abstract public class Animal {
 	
 	//구체적으로 처리를 할 수 없다면 본체{} 없이 ;으로 메소드를 선언  
 	
-	abstract void sound(); //{
+	abstract void sound(); //{ 추상
 //		System.out.println( kind + "소리를 낸다");
 	//}
 	
