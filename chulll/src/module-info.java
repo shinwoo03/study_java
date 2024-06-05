@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author HANUL
- *
- */
-module chulll {
-}

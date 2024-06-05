@@ -28,6 +28,7 @@ public class MethodEx01 {
 		}
 		System.out.println();
 	}
+
 	
 	
 	static void printsymbol(int no, String symbol ) { //(int no, String symbol)도 가능

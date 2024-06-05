@@ -3,10 +3,10 @@ public class operatorEx07 {
 	public static void main(String[] args) {
 		//삼항연산자(조건연산자) : 조건을 물어봤을 때 ? =>  참인경우 데이터 , 거짓인경우 데이터
 		int no= 10;
-		boolean tf =no == 10 ? true : false;
+		boolean tf = no == 10 ? true : false;
 		System.out.println(tf);
 		
-		int tj = no ==10 ? 1 : 0;
+		int tj = no ==10 ? 1 : 0; //no의 데이터가 true이기 때문에 참이어서 결과값이 1임.
 		System.out.println(tj);
 		
 		

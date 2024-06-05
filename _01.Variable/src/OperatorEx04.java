@@ -1,5 +1,5 @@
 
-public class operatoEx04 {
+public class OperatorEx04 {
 
 	public static void main(String[] args) {
 		//복합대입연산자 : +=, -=, *=, /=, %= (적기 귀찮으니까 간략하게 하기 위함!)

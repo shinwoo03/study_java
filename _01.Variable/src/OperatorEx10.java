@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class operateEx10 {
+public class OperatorEx10 {
 	public static void main(String[] args) {
 	//나이를 입력받아 유아, 소아, 청소년, 성인으로 구분해 출력하기
 	//유아 : 6세미만
