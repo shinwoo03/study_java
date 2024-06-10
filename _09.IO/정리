@@ -1,0 +1,33 @@
+데이터를 입출력하는 단위: byte, 문자
+데이터가 흘러가는 형태: 스트림
+입력스트림: 외부데이터를 자바프로그램 안으로 가져오기 - InputStream, Reader
+출력스트림: 자바프로그램에서 외부로 내보내기 - OutputStream, Writer 
+
+파일에의 입출력:  FileInputStream / FileOutputStream
+               FileReader / FileWriter
+                
+메모장에 쓰기 : 메모장 열기 -> 쓰기 -> 메모장 닫기
+메모장 읽기: 메모장 열기 -> 읽기 -> 메모장 닫기
+
+프리미타입 중 기본단위(byte, char)가 기본 단위가 아닌 타입 : int, long, ...
+의 데이터 입출력에는 추가적인 Stream 이 필요함
+DataInputStream / DataOutputStream
+: 입력/ 출력 대상 데이터를 바이트 스트림으로 변환하는 처리만 함
+  직접적으로 파일을 열거나, 닫는 기능은 없다.
+  파일 여는 기능을 가진 FileInputStream/ FileOutputStream과 함게 사용해야 한다.
+
+  
+레퍼런스타입(참조타입)의 데이터 입출력 : ObjectInputStream / ObjectOutputStream
+: 파일 여는 기능 없음.
+  파일 여는 기능을 가진 FileInputStream/ FileOutputStream과 함게 사용해야 한다.
+객체의 직렬화(내보낼때) / 역직렬화가 필요함
+  
+직접 파일에서 데이터를 읽어들이거나 쓰는 행위를 하는 접근방식은 프로그램 성능이 떨어진다.
+성능향상을 위해 데이터를 한꺼번에 파일에서 버퍼캐쉬에 넣어두었다가 읽거나 쓰는 처리를 한다.
+바이트 단위 : BufferedInputStream / BufferedOutputStream
+문자 단위 : BufferedReader / BufferedWriter 
+
+직접적으로 파일을 열거나, 닫는 기능은 없다.
+파일 여는 기능을 가진 FileInputStream/ FileOutputStream과 함게 사용해야 한다.
+  
+  
