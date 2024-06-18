@@ -1,0 +1,8 @@
+mvnrepository.com
+
+이메일 전송에 필요한 api
+
+: mail
+  email
+  javax.activation
+  
