@@ -5,3 +5,17 @@
 3. 쿼리문(sql) 선언
 4. DB연결해제(자원회수)
 
+SELECT  employee_id, last_name, first_name
+FROM    employees
+WHERE   last_name LIKE 'King%';
+
+SELECT  employee_id, concat(last_name, first_name)
+FROM    employees
+WHERE   upper(last_name) = 'KING';
+
+SELECT  employee_id, last_name|| ' ' ||first_name AS "합친이름",  concat(concat(last_name, ' '), first_name) AS "합친이름"
+FROM    employees
+WHERE   upper(last_name) = 'KING';
+
+
+데이터의 표현 - 숫자 : 그대로, 문자/날짜:' '(포텐션?)
