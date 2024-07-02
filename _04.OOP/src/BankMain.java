@@ -31,7 +31,7 @@ public class BankMain {
 		//통장정보 확인
 		bankInfo(lee);
 		
-		//이씨가 3만원 입금
+		//이해진씨가 3만원 입금
 		lee.addMoney(30000);
 		bankInfo(lee);
 		
